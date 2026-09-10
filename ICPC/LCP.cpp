@@ -1,4 +1,5 @@
 // https://qoj.ac/contest/4071/problem/20027
+// 想到字典树了，但是内部的这个传递逻辑太过于复杂
 
 #include <bits/stdc++.h>
 using namespace std;
