@@ -1,6 +1,7 @@
 // https://qoj.ac/contest/4121/problem/20294
 // 这更像是Manacher的模版题，但是这个多了一个二分
 // 这个 st 之前开 vector 发现 TL，改成静态就过了。。。。
+// 后续发现是这个 log2 函数太慢了，只要换成 __lg 就可以过。。。。
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long
